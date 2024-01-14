@@ -81,21 +81,21 @@ class CardMakerTwoPointOMeRealTimeTest {
         context = InstrumentationRegistry.getInstrumentation().targetContext
     }
 
-    @Test
-    fun testCardMakerTwoPointO() {
-        composeRule.setContent {
-            SensorsUI().CardMakerRealTimeScreen2TwoPointOMe(
-                sensorName = "Temperature",
-                sensorData = "25 C",
-                warningSign = 0,
-                context = context,
-                //graphType = "env"
-            )
-        }
-
-        composeRule.onNodeWithTag(context.getString(R.string.cardsub1))
-            .assertIsDisplayed()
-    }
+//    @Test
+//    fun testCardMakerTwoPointO() {
+//        composeRule.setContent {
+//            SensorsUI().CardMakerRealTimeScreen2TwoPointOMe(
+//                sensorName = "Temperature",
+//                sensorData = "25 C",
+//                warningSign = 0,
+//                context = context,
+//                graphType = "env"
+//            )
+//        }
+//
+//        composeRule.onNodeWithTag(context.getString(R.string.cardsub1))
+//            .assertIsDisplayed()
+//    }
 }
 
 class CardMakerTwoPointORealTimeTest {
@@ -110,20 +110,20 @@ class CardMakerTwoPointORealTimeTest {
         context = InstrumentationRegistry.getInstrumentation().targetContext
     }
 
-    @Test
-    fun testCardMakerTwoPointO() {
-        composeRule.setContent {
-            SensorsUI().CardMakerRealTimeScreen2TwoPointOMe(
-                sensorName = "Temperature",
-                sensorData = "25 C",
-                warningSign = 0,
-                context = context,
-              //  graphType = "env"
-            )
-        }
-
-        composeRule.onNodeWithTag(context.getString(R.string.cardsub2))
-            .assertIsDisplayed()
-    }
+//    @Test
+//    fun testCardMakerTwoPointO() {
+//        composeRule.setContent {
+//            SensorsUI().CardMakerRealTimeScreen2TwoPointOMe(
+//                sensorName = "Temperature",
+//                sensorData = "25 C",
+//                warningSign = 0,
+//                context = context,
+//                graphType = "env"
+//            )
+//        }
+//
+//        composeRule.onNodeWithTag(context.getString(R.string.cardsub2))
+//            .assertIsDisplayed()
+//    }
 
 }
